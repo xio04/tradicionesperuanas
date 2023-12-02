@@ -93,22 +93,6 @@ form.example::after {
 }
 
 
-@media (max-width: 768px) {
-    .logo {
-       width: 70px;
-       height: 70px;
-    }
-    .menu ul {
-       flex-direction: column;
-       padding: 0;
-    }
-    .menu ul li {
-       margin: 2px 0;
-       display: flex;
-    }
- }
-
-
 .banner{
     width: 100%;
     height: 400px;
@@ -313,14 +297,25 @@ form.example::after {
     flex-direction: column;
 }
 
-@media (max-width: 576px) {
-    #cusco,
-    #amazonas,
-    #ica,
-    #arequipa,
-    #tarapoto {
-        margin-left: 0;
-    }
+a{
+    text-decoration: none;
+    font-size: 17px;
+}
+
+p{
+    font-size: 17px;
+}
+
+a:hover{
+    color: #586E26 !important;
+}
+
+i{
+    font-size: 25px;
+}
+
+.text-uppercase{
+    color: 35682D;
 }
 
 .container h6{
@@ -364,11 +359,6 @@ form.example::after {
     text-align: justify;
 }
 
-@media (max-width: 768px) {
-    .card-img-overlay {
-        text-align: center;
-    }
-}
 
 li, ol, ul {
     list-style: none;
@@ -447,24 +437,6 @@ h3{
     color: #586E26;
   }
 
-  .receta-container {
-    max-width: 600px; 
-    margin: auto;
-    text-align: center;
-    margin-bottom: 40px; 
-  }
-
-  #receta {
-    border-radius: 10px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    margin-top: 20px; 
-    width: 300px;
-    height: 300px;
-    margin: auto; 
-    display: block;
-    margin-top: 50px
-  }
-
   iframe {
     width: 100%;
     max-width: 560px; 
@@ -490,7 +462,9 @@ a:hover{
 i{
     font-size: 25px;
 }
-
+.text-uppercase{
+    color: #35682D;
+}
 @media (max-width: 576px) {
     .logo {
         width: 50px;
@@ -519,7 +493,7 @@ i{
     #tarapoto {
         margin-left: 0; /
     }
-#icono{
+    #icono{
         width: 100px;
         height: 100px;
 }
@@ -539,6 +513,9 @@ i{
         width: 100%; 
         margin-bottom: 20px; 
       }
+      .card-img-overlay {
+        text-align: center;
+    }
     
       #lima,
       #cusco,
@@ -560,6 +537,10 @@ i{
 
 .container {
     margin-top: 20px;
+}
+
+.text-uppercase{
+    font-size: 16px;
 }
 
 @media (max-width: 1200px) {
